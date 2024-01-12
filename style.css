@@ -55,9 +55,10 @@
     border-radius: 6px;
     width: 70%;
     z-index: 1;
+    display: none;
 }
 
-.dropwdown-list-item{
+.dropdown-list-item{
     margin: 0;
     padding: 0;
     border: 1px solid #7e9880 ;
@@ -66,21 +67,27 @@
     cursor: pointer;
 }
 
-.dropwdown-list-item:first-child{
+.dropdown-list-item:first-child{
     border-radius:6px 6px 0 0
 }
 
-.dropwdown-list-item:last-child{
+.dropdown-list-item:last-child{
     border-radius:0 0 6px 6px;
     border-bottom: 1px solid #7e9880;
     
 }
 
-.dropwdown-list-item:hover{
+.dropdown-list-item:hover{
     background: rgba(176, 198, 225, 0.6);
 }
 
 .dropdown-button:focus{
     outline: none;
     box-shadow:0px 0px 0px 4px  rgba(176, 198, 225, 0.6);
+}
+
+
+
+.active{
+    display: block;
 }
